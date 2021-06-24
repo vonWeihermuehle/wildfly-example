@@ -8,7 +8,7 @@ public class ExampleProvider {
     private int zaehler = 0;
 
     public String getHello(){
-        return "Hello from EJB: " + zaehler;
+        return "Hello from a EJB: " + zaehler;
     }
 
     public void increment(){
